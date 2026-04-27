@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # --- AI CONFIGURATION ---
 # Get your API Key from https://aistudio.google.com/
-GEMINI_API_KEY = "AIzaSyB1D42eN1QKETyTuCVY5TGXYsmhq-lgr4c" 
+GEMINI_API_KEY = "YOUR_API_KEY_HERE" 
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Use gemini-1.5-flash for speed and lower latency
