@@ -10,7 +10,7 @@ app = Flask(__name__)
 GEMINI_API_KEY = "YOUR_API_KEY_HERE" 
 genai.configure(api_key=GEMINI_API_KEY)
 
-# Use gemini-1.5-flash for speed and lower latency
+# Use gemini-2.5-flash for speed and lower latency
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 @app.route('/')
